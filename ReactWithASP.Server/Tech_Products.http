@@ -1,0 +1,52 @@
+@Tech_Products_HostAddress = https://localhost:7053
+
+#GET {{Tech_Products_HostAddress}}/weatherforecast/
+#Accept: application/json
+
+###
+
+POST {{ReactWithASP.Server_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Teste",
+  "price": 79.90,
+  "batch": "ABCD1234"
+}
+
+###
+
+GET {{ReactWithASP.Server_HostAddress}}/api/products
+
+###
+
+@id=1
+GET {{ReactWithASP.Server_HostAddress}}/api/products/{{id}}
+
+###
+
+POST {{ReactWithASP.Server_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Mouse Gamer sem fio",
+  "price": 89.90
+}
+
+###
+
+PUT {{ReactWithASP.Server_HostAddress}}/api/products/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Monitor LED 4K 27in",
+  "price": 1399.90,
+  "batch": "ABCD1234"
+}
+
+###
+
+DELETE {{ReactWithASP.Server_HostAddress}}/api/products/2
+
+###
