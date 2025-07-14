@@ -27,13 +27,13 @@ Acrescento em seguida informações que foram úteis para a realização do test
 
 **Informações de projeto:**
 
-[Swagger UI](https://localhost:7025/swagger/index.html)
+- [Swagger UI](https://localhost:7025/swagger/index.html)
 
-**SQL Server**
+**SQL Server**  
 Nome da Instância: MSSQLSERVER  
 Cadeia de Conexão: Server=localhost;Database=master;Trusted_Connection=True;  
 Administradores SQL: DESKTOP-B9PGF75\mari4
 
-Instalações com `npm` que seriam usadas no front-end:
+Instalações com `npm` que seriam usadas no front-end:  
 > `npm i react-router-dom`  
 > `npm i zustand`
