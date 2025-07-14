@@ -1,0 +1,25 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "ReactWithASP.Server\\ReactWithASP.Server.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "reactwithasp.client\\reactwithasp.client.esproj",
+        "Action": "Start"
+      }
+    ]
+  },
+  {
+    "Name": "Novo Perfil (1)",
+    "Projects": [
+      {
+        "Path": "ReactWithASP.Server\\ReactWithASP.Server.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      }
+    ]
+  }
+]
